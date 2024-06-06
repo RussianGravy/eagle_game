@@ -1,0 +1,13 @@
+#game-window {
+    position: relative;
+    aspect-ratio: 1/1;
+    width: 90vmin;
+    margin: auto;
+}
+
+.layer {
+    background-color: grey;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
