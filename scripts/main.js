@@ -11,8 +11,9 @@ function gameLoop(){
     gameFrame += 0.25;
     if(gameFrame%staggerFrame == 0){    
         //code here
+        //comment from 
     }
-    requestAnimationFrame(gameLoop);
+   requestAnimationFrame(gameLoop);
 }
 
 
