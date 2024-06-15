@@ -5,9 +5,10 @@ import {three} from './modules/three.mjs' //foreground
 var gameFrame = 0;
 const staggerFrame = 2;
 
-while(false){
-    gameFrame++;
-    if(gameFrame%staggerFrame == 0){
-        console.log(8);
+function gameLoop(){
+    gameFrame += 0.25;
+    if(gameFrame%staggerFrame == 0){    
+        //code here
     }
+    requestAnimationFrame(gameLoop);
 }
