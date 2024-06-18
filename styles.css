@@ -1,3 +1,7 @@
+h1 {
+    margin: auto;
+}
+
 #game-window {
     position: relative;
     aspect-ratio: 1/1;
